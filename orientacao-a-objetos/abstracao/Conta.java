@@ -8,5 +8,5 @@ interface  Conta {
     //em resumo oculta o que nao precisa ser exposto e cria  comportamentos padrões
     
     public void consultarSaldo();
-    public  void fazerPix();
+    public  void fazerPix();  //test
 }
