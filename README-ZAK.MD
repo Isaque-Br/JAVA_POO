@@ -3,7 +3,6 @@
 
 ## 💻 Conteúdo programático
 
-
 ORIENTAÇÃO A OBJETO
 
  ~ ABSTRAÇÃO
@@ -60,3 +59,9 @@ _____________________________________________________
  como um botão que liga e desliga.
  Conseguimos ter a implementação diferente porém com  mesmo nome e tipo de retorno.
  - VANTAGEN NÃO ter duplicação de código
+ ____________________________________________________
+
+ ~ Ferramentas
+ - GitHub
+ Ao pressionar a tecla . do teclado dentro do repositorio, abre-se o projeto no Vs.coode
+ 
