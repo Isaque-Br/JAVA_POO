@@ -64,4 +64,27 @@ _____________________________________________________
  ~ Ferramentas
  - GitHub
  Ao pressionar a tecla . do teclado dentro do repositorio, abre-se o projeto no Vs.coode
- 
+ ____________________________________________________
+
+ ## Como rodar o projeto
+
+ - instalar o maven dentro da pasta do POM.XLM através do terminal.
+
+1 - Configure o java 19 no GitPod
+2 - cd/ pasta.api
+3 - sdk install java 19.0.2-open
+
+4 - Rode o comando mvn clean e mvn install
+
+5 - Rode o comando mvn spring-boot:run
+________________________________________________
+
+~ Repository
+É uma classe que usamos a ferramenta JPA, para fazer as query tudo para gente e nAo precisar escrever.
+Criaremos a interface que dentro dela terá o contrato do repository (extends JpaRepository)<Curso, Long>
+
+Classes
+- Classe @Service de serviço tem regras de negócio, classe modelo e data gerallmente é a tabela.
+- Classe repository/repositorio, é a classe que tem a interface entre o banco e a tabela
+- Rest controller vai ter os end-points da aplicação.
+
